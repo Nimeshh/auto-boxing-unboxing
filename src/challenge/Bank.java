@@ -1,30 +1,5 @@
 package challenge;
 
-// You job is to create a simple banking application.
-// There should be a Bank class
-// It should have an arrayList of Branches.
-// Each Branch should have an arrayList of Customers.
-// The Customer class should have an arrayList of Doubles (transactions)
-// Customer:
-// Name, and the ArrayList of doubles.
-// Branch:
-// Need to be able to add a new customer and initial transaction amount.
-// Also needs to add additional transactions for that customer/bank
-
-// Bank:
-// Add a new bank
-// Add a customer to that bank with initial transaction
-// Add a transaction for an existing customer for that bank
-// Show a list of customers for a particular bank and optionally a list
-// of their transactions
-// Demonstration autoboxing and unboxing in your code
-
-// Hint: Transactions
-// Add data validation.
-// e.g. check if exists, or does not exist, etc.
-// Think about where you are adding the code to perform certain actions
-
-
 import java.util.ArrayList;
 
 public class Bank {
